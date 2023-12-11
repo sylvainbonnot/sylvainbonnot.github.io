@@ -3,13 +3,13 @@
 ## The Lorenz system
 The Lorenz system is a system of differential equations given by
 
-```math
+$$
 \begin{align}
 & \frac{\mathrm{d} x}{\mathrm{~d} t}=\sigma(y-x) \\
 & \frac{\mathrm{d} y}{\mathrm{~d} t}=x(\rho-z)-y \\
 & \frac{\mathrm{d} z}{\mathrm{~d} t}=x y-\beta z 
 \end{align}
-```
+$$
 
 The original parameters studied by Lorenz were $$\rho=28, \sigma=10, \beta=8/3$$. For those parameters, the system exhibits a well-known "Butterfly-like attractor" with two lobes:
 
