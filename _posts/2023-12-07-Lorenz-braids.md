@@ -5,8 +5,8 @@ The Lorenz system is a system of differential equations given by
 
 $$
 \begin{align}
-& \frac{\mathrm{d} x}{\mathrm{~d} t}=\sigma(y-x) \\
-& \frac{\mathrm{d} y}{\mathrm{~d} t}=x(\rho-z)-y \\
+& \frac{\mathrm{d} x}{\mathrm{~d} t}=\sigma(y-x) \cr
+& \frac{\mathrm{d} y}{\mathrm{~d} t}=x(\rho-z)-y \cr
 & \frac{\mathrm{d} z}{\mathrm{~d} t}=x y-\beta z 
 \end{align}
 $$
