@@ -14,7 +14,11 @@ The original parameters studied by Lorenz were $$\rho=28, \sigma=10, \beta=8/3$$
 ![Lorenz Attractor](/images/Lorenz_Attractor.png)
 <html>
 <body>
-<p><img src="/images/Lorenz_Attractor.png" alt="Lorenz attractor" width="50%" ></p>
+<p>
+      <div style="text-align: center;">
+	<img src="/images/Lorenz_Attractor.png" alt="Lorenz attractor" width="50%" >
+      </div>
+</p>
 </body>
 </html>
 <html>
