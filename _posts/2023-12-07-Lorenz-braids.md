@@ -43,14 +43,13 @@ print(f'The Lorenz Knot with word {knot_string} has Dowker code {knot_code}\n')
 lk.convert_to_braid()
 print(lk.braid)
 >>> [4, 3, 7, 6, 5, 4, 8, 7, 6, 5, 2, 1, 0, 3, 2, 1, 4, 3, 2]
-
 ```
 
 The braid with its simple description can now be visualized :
+
 ```python
 braid_word = [4, 3, 7, 6, 5, 4, 8, 7, 6, 5, 2, 1, 0, 3, 2, 1, 4, 3, 2]
 plot_braid(braid_word)
-
 ```
 
 ![Braid plot](/images/Lorenz_braid_plot.png)
@@ -67,8 +66,6 @@ from spherogram.codecs import DT
 M = sn.Manifold('Braid[5, 4, 8, 7, 6, 5, 9, 8, 7, 6, 3, 2, 1, 4, 3, 2, 5, 4, 3]')
 M.volume()
 >>> 7.70691180281
-
-
 ```
 
 
