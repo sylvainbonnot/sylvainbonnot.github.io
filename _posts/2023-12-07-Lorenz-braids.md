@@ -56,7 +56,20 @@ plot_braid(braid_word)
 ![Braid plot](/images/Lorenz_braid_plot.png)
 
 
+## Hyperbolic volumes
+One of the reasons why I wrote these scripts was to be able to feed directly a closed orbit into Snappy to be able to check when the (closed) orbit complement is hyperbolic. Snappy does the computation of the hyperbolic volume for such braids immediately: 
 
+```python
+import snappy as sn
+from snappy import manifolds
+from spherogram.codecs import DT
+
+M = sn.Manifold('Braid[5, 4, 8, 7, 6, 5, 9, 8, 7, 6, 3, 2, 1, 4, 3, 2, 5, 4, 3]')
+M.volume()
+>>> 7.70691180281
+
+
+```
 
 
 
