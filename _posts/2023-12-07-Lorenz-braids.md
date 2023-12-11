@@ -24,7 +24,7 @@ The original parameters studied by Lorenz were $$\rho=28, \sigma=10, \beta=8/3$$
 <html>
 <body>
 
-Among all orbits of the system, some of them form closed loops. They can be visually described by recording the sequence of "lobes" visited (R for right, L for left). This is best visualized through a "template":
+Among all orbits of the system, some of them form closed loops. They can be visually described by recording the sequence of lobes visited (R for right, L for left). This is best visualized through a template:
 
 ![Lorenz Template](/images/Lorenz_LR.png)
 
