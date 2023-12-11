@@ -53,7 +53,7 @@ plot_braid(braid_word)
 
 ```
 
-![Braid plot](/images/Lorenz_braid_plot)
+![Braid plot](/images/Lorenz_braid_plot.png)
 
 
 
