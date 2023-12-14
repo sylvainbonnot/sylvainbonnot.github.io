@@ -126,7 +126,6 @@ The whole situation can be summarized with some OOP class diagrams as well:
 
 
 <!--- 
-```mermaid
 classDiagram
     class ModelInterface {
         <<interface>>
@@ -158,8 +157,6 @@ classDiagram
     ModelInterface <|.. TensorFlowModelAdapter
     SklearnModelAdapter --> SklearnModel
     TensorFlowModelAdapter --> TensorFlowModel
-```
-
 -->
 
 
