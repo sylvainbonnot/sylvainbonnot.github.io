@@ -113,4 +113,55 @@ Now, the two adapters SklearnModelAdapter and TensorFlowModelAdapter adapt the S
 
 The whole situation can be summarized with some OOP class diagrams as well:
 
-![design pattern adapter](/images/design_patterns_1_class_diagram.png)
+
+<html>
+<body>
+<p>
+      <div style="text-align: center;">
+	<img src="/images/design_patterns_1_class_diagram.png" alt="Adapter design pattern" width="50%" >
+      </div>
+</p>
+</body>
+</html>
+
+
+<!--- 
+```mermaid
+classDiagram
+    class ModelInterface {
+        <<interface>>
+        +train()
+        +predict()
+    }
+
+    class SklearnModel {
+        +sklearn_specific_train()
+        +sklearn_specific_predict()
+    }
+
+    class TensorFlowModel {
+        +tensorflow_specific_train()
+        +tensorflow_specific_predict()
+    }
+
+    class SklearnModelAdapter {
+        +train()
+        +predict()
+    }
+
+    class TensorFlowModelAdapter {
+        +train()
+        +predict()
+    }
+
+    ModelInterface <|.. SklearnModelAdapter
+    ModelInterface <|.. TensorFlowModelAdapter
+    SklearnModelAdapter --> SklearnModel
+    TensorFlowModelAdapter --> TensorFlowModel
+```
+
+--->
+
+
+
+
