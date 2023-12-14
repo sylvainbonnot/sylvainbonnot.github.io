@@ -155,8 +155,8 @@ classDiagram
 
     ModelInterface <|.. SklearnModelAdapter
     ModelInterface <|.. TensorFlowModelAdapter
-    SklearnModelAdapter --> SklearnModel
-    TensorFlowModelAdapter --> TensorFlowModel
+    SklearnModelAdapter "->" SklearnModel
+    TensorFlowModelAdapter "->" TensorFlowModel
 -->
 
 
