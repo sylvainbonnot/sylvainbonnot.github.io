@@ -117,27 +117,27 @@ The whole situation can be summarized with some OOP class diagrams as well:
 classDiagram
     class ModelInterface {
         <<interface>>
-        +train()
+        +fit()
         +predict()
     }
 
     class SklearnModel {
-        +sklearn_specific_train()
-        +sklearn_specific_predict()
+        +train()
+        +evaluate()
     }
 
     class TensorFlowModel {
-        +tensorflow_specific_train()
-        +tensorflow_specific_predict()
+        +train()
+        +evaluate()
     }
 
     class SklearnModelAdapter {
-        +train()
+        +fit()
         +predict()
     }
 
     class TensorFlowModelAdapter {
-        +train()
+        +fit()
         +predict()
     }
 
