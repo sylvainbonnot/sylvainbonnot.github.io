@@ -6,8 +6,8 @@ is to use the virtual tours used by real estate companies (especially the Matter
 I keep forgetting the instructions to do it, so I decided to record them here instead.
 
 ## Steps to run locally a virtual tour
-* download and extract the following to a local folder: <a href="https://github.comrebane2001/matterport-dl"> matterport-dl </a>
-* visit a page hosting virtual tours: <a href="https://www.luxuryrealestate.com/360_tours"> luxury tours </a>
+* download and extract the following to a local folder: <a href="https://github.com/rebane2001/matterport-dl"> matterport-dl </a>
+* visit a page hosting virtual tours: <a href="https://www.luxuryrealestate.com/360-tours"> luxury tours </a>
 * download locally a virtual tour : ```python3 matterport-dl.py [url_or_page_id]``` The matterport address usually appears like this: ```https://my.matterport.com/show/?m=2oNBQu1FVxA```
 * To run locally, use ```python3 matterport-dl.py [url_or_page_id] 127.0.0.1 8080``` and go to  ```http://127.0.0.1:8080``` in a browser.
 
