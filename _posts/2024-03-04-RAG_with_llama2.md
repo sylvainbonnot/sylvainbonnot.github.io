@@ -1,4 +1,4 @@
-# Motivation and setup
+# LLM with llama2 locally with retriever
 Based on the Langchain's docs, I want to use the **llama2** model **locally**, while augmenting the search by providing the content of a given web page.
 
 So we start with some installs: 
