@@ -1,0 +1,21 @@
+---
+import { Markdown } from 'astro/components';
+const { title, description, pubDate, content } = Astro.props;
+import 'katex/dist/katex.min.css';
+---
+
+<html>
+  <head>
+    <title>{title}</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <time>{pubDate}</time>
+      </header>
+      <Markdown content={content} />
+    </article>
+  </body>
+</html>

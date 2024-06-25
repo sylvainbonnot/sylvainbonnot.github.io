@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const title = 'About';
+const description = 'About your blog.';
+const permalink = `${Astro.site.href}about`;
+
+// Sample data to pass to the Timeline component
+const items = [
+  {
+    date: '2024-01-16',
+    label: 'Event 1',
+    title: 'Title 1',
+    content: 'Description of event 1',
+  },
+  {
+    date: '2024-02-20',
+    label: 'Event 2',
+    title: 'Title 2',
+    content: 'Description of event 2',
+  },
+  // Add more items as needed
+];
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="about">
+  <div class="container">
+    <h1>About</h1>
+    <figure class="about-image">
+      <img src="/assets/profile-pic.webp" alt="Sylvain's avatar" width="200" />
+    </figure>
+    <p>I'm Sylvain, a data scientist with a math background.</p>
+    <p>Check my <a href="https://github.com/sylvainbonnot" alt="Sylvain's github page">github page</a></p>
+  </div>
+</BaseLayout>
+
+<style>
+  .about-image {
+    float: right;
+    margin: -3em -7em 2em 2em;
+    max-width: 300px;
+  }
+
+  .about-image img {
+    border-radius: 8px;
+    margin-bottom: 1.5em;
+  }
+
+  @media (max-width: 1020px) {
+    .about-image {
+      float: none;
+      margin: 0 auto 2em;
+    }
+  }
+</style>
+
+
+
+
+
+
+
