@@ -9,7 +9,7 @@ import remarkMath from 'remark-math' // Support math like `$so$`.
 import vue from '@astrojs/vue';
 
 export default defineConfig({
-  site: 'https://astro-blog-template.netlify.app',
+  site: 'https://sylvainbonnot.github.io',
   integrations: [mdx(), svelte(), vue()],
   markdown: {
     shikiConfig: {
